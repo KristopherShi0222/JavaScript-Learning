@@ -1,18 +1,24 @@
-document.getElementById('countBtn').addEventListener('click', countHTMLElements);
-document.getElementById('countContainer1Btn').addEventListener('click', () => countElementsInContainer('container1'));
-document.getElementById('countContainer2Btn').addEventListener('click', () => countElementsInContainer('container2'));
+document.addEventListener('DOMContentLoaded', function () {
+    const messageElement = document.getElementById('message');
+    const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
+    const messageInput = document.getElementById('messageInput');
+    const updateMessageBtn = document.getElementById('updateMessage');
 
-function countHTMLElements() {
-    const elements = document.querySelectorAll('*');
-    document.getElementById('result1').innerHTML = `There are ${elements.length} HTML elements on this page.`;
-}
-
-function countElementsInContainer(containerId) {
-    const container = document.getElementById(containerId);
-    if (container) {
-        const elements = container.getElementsByTagName('*');
-        document.getElementById('result2').innerHTML = `There are ${elements.length} elements in ${containerId}.`;
-    } else {
-        document.getElementById('result2').innerHTML = `Container not found.`;
+    function changeMessage(text) {
+        messageElement.textContent = text;
     }
-}
+
+    btn1.addEventListener('click', function () {
+        changeMessage("I can't wake up without drinking coffee");
+    });
+
+    btn2.addEventListener('click', function () {
+        changeMessage("Sometimes I tried to go out without drinking coffee, but I failed");
+    });
+
+    updateMessageBtn.addEventListener('click', function () {
+        const newMessage = messageInput.value;
+        changeMessage(newMessage);
+    });
+});

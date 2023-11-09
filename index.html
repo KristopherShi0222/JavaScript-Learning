@@ -1,42 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Week 7 Coding Exercise</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Playground</title>
+</head>
+<body>
+    <h1>DOM Playground</h1>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML Elements Exercise</title>
-</head>
-<body>
-    <p>This is a paragraph.</p>
-    <p>This is another paragraph.</p>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <div id="container1">
-        <p>This is inside container1.</p>
-        <p>This is also inside container1.</p>
+    <div id="messageContainer">
+        <p id="message">Click a button to change this message</p>
     </div>
-    <div id="container2">
-        <p>This is inside container2.</p>
-        <p>This is also inside container2.</p>
-    </div>
-    <button id="countBtn">Count Elements</button>
-    <button id="countContainer1Btn">Count Elements in Container1</button>
-    <button id="countContainer2Btn">Count Elements in Container2</button>
-    <div id="result1"></div>
-    <div id="result2"></div>
-    <div id="result3"></div>
+
+    <button id="btn1">Change Message 1</button>
+    <button id="btn2">Change Message 2</button>
+    <input type="text" id="messageInput" placeholder="Type a message">
+    <button id="updateMessage">Update Message</button>
+
     <script src="script.js"></script>
-</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
 </body>
 </html>
