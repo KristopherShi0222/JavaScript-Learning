@@ -1,87 +1,113 @@
 [
+{
+    "title": "Brooklyn has no mountain",
+    "year": 2023,
+    "hashtag": "15",
+    "collaborator": "101e"
+  }, 
   {
     "title": "101e",
     "year": 2023,
-    "hashtag": "13",
-    "collaborator": "101e",
- "description":"ink on paper, photo album \\nshared a playlist"
+    "hashtag": "14",
+    "collaborator": "101e"
   }, 
+ {
+    "title": "My Body Is Not My Home",
+    "year": 2023,
+    "hashtag": "13",
+    "collaborator": "Yinuo Chen"
+  },
   {
       "title": "how hard am I gonna",
       "year": 2023,
       "hashtag": "12",
-      "collaborator": "",
- "description":"ink on paper, photo album \\nshared a playlist"
+      "collaborator": ""
     },
     {
       "title": "playlist",
       "year": 2023,
       "hashtag": "11",
-      "collaborator": "",
-      "description":"ink on paper, photo album \\nshared a playlist"
+      "collaborator": ""
     },
     {
       "title": "Wenjüe Lu \"NEITHER\"",
       "year": 2023,
       "hashtag": "10",
-      "collaborator": "Wenjüe Lu",
-      "description":"ink on paper, photo album \\nshared a playlist"
+      "collaborator": "Wenjüe Lu"
     },
-    { "title": "poster002",
+    { "title": "poster003",
     "year":2023,
     "hashtag":"09",
-    "collaborator": "subsync",
-    "description":"ink on paper, photo album \\nshared a playlist"
+    "collaborator": ":iidrr"
   },
     { "title": "Tribal Grid",
       "year": 2023,
       "hashtag": "08",
-      "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
+      "collaborator": ""
     },
     { "title": "Rancho Palos Verdes",
       "year":2023,
       "hashtag": "07",
-      "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
+      "collaborator": ""
   },
   { "title": "poster002",
   "year":2023,
   "hashtag":"06",
-  "collaborator": ":iidrr Gallery",
-"description":"ink on paper, photo album \\nshared a playlist"
+  "collaborator": ":iidrr Gallery"
 },
   {
     "title": "long story short",
     "year": 2023,
     "hashtag": "05",
-    "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
+    "collaborator": ""
   },
   {
     "title": "20230529",
     "year": 2023,
     "hashtag":"04",
-    "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
+    "collaborator": ""
   },
   { "title": "poster001",
     "year":2023,
     "hashtag":"03",
-    "collaborator": ":iidrr Gallery",
-"description":"ink on paper, photo album \\nshared a playlist"
+    "collaborator": "subsync"
   },
   { "title": "Mistaking The Bloodshed For A Melodic Grassland Chase",
     "year":2023,
     "hashtag":"02",
-    "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
+    "collaborator": ""
   },
   { "title": "Every Light Has Its Breath",
   "year":2023,
   "hashtag":"01",
-  "collaborator": "",
-"description":"ink on paper, photo album \\nshared a playlist"
-}
+  "collaborator": ""
+},
+{ "title": "Basement Dancing",
+  "year":2022,
+  "hashtag":"04",
+  "collaborator": ""
+},
+{ "title": "I'm Your Jazz Singer You're My Cult Leader",
+  "year":2022,
+  "hashtag":"03",
+  "collaborator": ""
+},
+{ "title": "I'm just A Child But I'm Not Above Violence",
+  "year":2022,
+  "hashtag":"02",
+  "collaborator": ""
+},
+{ "title": "ceramics",
+  "year":2022,
+  "hashtag":"01",
+  "collaborator": ""
+},
+{ "title": "early works",
+  "year":-2021,
+  "hashtag":"01",
+  "collaborator": ""
+},
+
+
 
   ]
